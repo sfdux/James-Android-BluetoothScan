@@ -1,0 +1,10 @@
+package bluetooth.aglogica.com.bluetoothtool;
+
+/**
+ * Created by James.Shi on 12/31/14.
+ */
+public class SystemConst {
+    public final static String VALUE_DATETIME_FORMAT = "yy MM dd HH mm ss";
+    public final static long VALUE_ONE_SECOND = 1000;
+    public static final String COMMAND = "initflash\r\n|rate g 0\r\n|rate m 0\r\n|rate x 100\r\n|datamode 1\r\n|sleepmode 2\r\n|inactive 1800\r\n";
+}

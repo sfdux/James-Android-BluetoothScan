@@ -1,0 +1,20 @@
+package bluetooth.aglogica.com.bluetoothtool;
+
+/**
+ * Created by James.Shi on 12/31/14.
+ */
+public class SystemConst {
+    public final static String VALUE_DATETIME_FORMAT = "yy MM dd HH mm ss";
+    public final static long VALUE_ONE_SECOND = 1000;
+    public static final String LED_COMMAND = "led 3\r\n";
+    public static final String COMMAND = "rate g 0\r\n|rate m 0\r\n|rate x 100\r\n|datamode 1\r\n|sleepmode 2\r\n|inactive 120\r\n|initflash\r\n";
+    public static final String STREAM_COMMAND = "datamode 0\r\n|stream\r\n";
+    public static final String RESET_COMMAND = "reset\r\n";
+
+    public static final int SEND_LED = 1;
+    public static final int SEND_CONFIG = 2;
+    public static final int SEND_STREAM = 3;
+
+    public static final String EXTENSION_BINARY = "bin";
+    public final static String LOCALFOLDER_NAME = "/BluetoothToolBin";
+}

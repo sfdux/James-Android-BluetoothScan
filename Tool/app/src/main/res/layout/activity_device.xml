@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeMain"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <TextView
+            android:id="@+id/title_paired_devices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#666"
+            android:paddingLeft="5dp"
+            android:text="@string/title_paired_devices"
+            android:textColor="#fff"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/paired_devices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:stackFromBottom="true" />
+
+        <TextView
+            android:id="@+id/title_new_devices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#666"
+            android:paddingLeft="5dp"
+            android:text="@string/title_other_devices"
+            android:textColor="#fff"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/new_devices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:stackFromBottom="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--<Button-->
+            <!--android:id="@+id/btnInit"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@null"-->
+            <!--android:drawableTop="@android:drawable/ic_menu_send"-->
+            <!--android:text="@string/button_init"-->
+            <!--android:textColor="#fff" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btnSleep"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_below="@id/btnInit"-->
+            <!--android:background="@null"-->
+            <!--android:drawableTop="@android:drawable/ic_menu_send"-->
+            <!--android:text="@string/button_led"-->
+            <!--android:textColor="#fff" />-->
+
+        <Button
+            android:id="@+id/btnStream"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:drawableTop="@android:drawable/ic_menu_send"
+            android:text="@string/button_stream"
+            android:textColor="#fff" />
+    </RelativeLayout>
+</LinearLayout>

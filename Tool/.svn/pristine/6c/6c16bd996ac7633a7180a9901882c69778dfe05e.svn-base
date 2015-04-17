@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jg/Desktop/Project/AndroidConsole/Tool/BluetoothTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/Users/jg/Desktop/Project/AndroidConsole/Tool/BluetoothTool/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-151935784c994fd021b229fe9f88297d6f310946.jar" />
+    </item>
+    <item
+        jar="/Users/jg/android-sdks/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/Users/jg/Desktop/Project/AndroidConsole/Tool/BluetoothTool/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-d6e435859cce8c47a6a8b79846483bf211927ec7.jar" />
+    </item>
+    <item
+        jar="/Users/jg/Desktop/Project/AndroidConsole/Tool/BluetoothTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/Users/jg/Desktop/Project/AndroidConsole/Tool/BluetoothTool/app/build/intermediates/pre-dexed/debug/classes-ec151a2f58d884b10858d1e3300bf093fec37381.jar" />
+    </item>
+    <item
+        jar="/Users/jg/Desktop/Project/AndroidConsole/Tool/BluetoothTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="/Users/jg/Desktop/Project/AndroidConsole/Tool/BluetoothTool/app/build/intermediates/pre-dexed/debug/classes-f87a78fe64b3a7aa2a7aec74b1271a885d6d657d.jar" />
+    </item>
+
+</items>
